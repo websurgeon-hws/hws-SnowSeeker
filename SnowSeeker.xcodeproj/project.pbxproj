@@ -13,7 +13,7 @@
 		D01051D323B75CD7007BAC37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01051D223B75CD7007BAC37 /* Assets.xcassets */; };
 		D01051D623B75CD7007BAC37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01051D523B75CD7007BAC37 /* Preview Assets.xcassets */; };
 		D01051D923B75CD7007BAC37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01051D723B75CD7007BAC37 /* LaunchScreen.storyboard */; };
-		D01051E123B7613D007BAC37 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01051E023B7613D007BAC37 /* UserView.swift */; };
+		D01051E523B8A899007BAC37 /* resorts.json in Resources */ = {isa = PBXBuildFile; fileRef = D01051E423B8A899007BAC37 /* resorts.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		D01051D523B75CD7007BAC37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D01051D823B75CD7007BAC37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D01051DA23B75CD7007BAC37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D01051E023B7613D007BAC37 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		D01051E423B8A899007BAC37 /* resorts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = resorts.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 				D01051CC23B75CD6007BAC37 /* AppDelegate.swift */,
 				D01051CE23B75CD6007BAC37 /* SceneDelegate.swift */,
 				D01051D023B75CD6007BAC37 /* ContentView.swift */,
-				D01051E023B7613D007BAC37 /* UserView.swift */,
+				D01051E423B8A899007BAC37 /* resorts.json */,
 				D01051D223B75CD7007BAC37 /* Assets.xcassets */,
 				D01051D723B75CD7007BAC37 /* LaunchScreen.storyboard */,
 				D01051DA23B75CD7007BAC37 /* Info.plist */,
@@ -138,6 +138,7 @@
 			files = (
 				D01051D923B75CD7007BAC37 /* LaunchScreen.storyboard in Resources */,
 				D01051D623B75CD7007BAC37 /* Preview Assets.xcassets in Resources */,
+				D01051E523B8A899007BAC37 /* resorts.json in Resources */,
 				D01051D323B75CD7007BAC37 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,7 +153,6 @@
 				D01051CD23B75CD6007BAC37 /* AppDelegate.swift in Sources */,
 				D01051CF23B75CD6007BAC37 /* SceneDelegate.swift in Sources */,
 				D01051D123B75CD6007BAC37 /* ContentView.swift in Sources */,
-				D01051E123B7613D007BAC37 /* UserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
